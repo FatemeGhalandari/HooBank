@@ -18,12 +18,12 @@ const App = () => (
         <Navbar />
       </div>
     </div>
-    <div className="bg-primary justify-center items-start">
+    <div className="bg-primary flex justify-center items-start">
       <div className="w-full xl:max-w-[1280px]">
         <Hero />
       </div>
     </div>
-    <div className="bg-primary justify-center items-start px-6 sm:px-16 ">
+    <div className="flex bg-primary justify-center items-start px-6 sm:px-16 ">
       <div className="w-full xl:max-w-[1280px]">
         <Stats />
         <Business /> <Billing /> <CardDeal /> <Testimonials /> <Clients />{" "}
