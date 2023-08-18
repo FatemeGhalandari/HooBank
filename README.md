@@ -26,6 +26,6 @@ To get started with this project, follow these steps:
 4. Start the development server:  
 `npm run dev`  
 5. Open your browser and visit:  
-http://localhost:3000
+http://localhost:5173
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
