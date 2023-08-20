@@ -1,5 +1,5 @@
 # Project Name: Modern-bank 
-Welcome to my project based on the JS Mastery course! In this project, I've created a multi-component and feature-rich website using ReactJS, TailwindCSS, and Vite. This website serves as a practical implementation of the concepts I've learned in the course and showcases my skills in building responsive web applications.  
+In this project, I've created a multi-component and feature-rich website using ReactJS, TailwindCSS, and Vite. This website serves as a practical implementation of the concepts I've learned and showcases my skills in building responsive web applications.  
 
 ![Screenshot (2077)](https://github.com/FatemeGhalandari/Modern-bank/assets/121693146/b74f437f-0eca-4fd5-9029-5309c0b32b4e)
 
