@@ -5,8 +5,10 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full justify-between items-center flex navbar py-6">
-      <img src={logo} className="h-[32px] w-[124px]" />
-      <ul className="list-none  justify-between items-center sm:flex hidden">
+      <a href="/">
+        <img src={logo} className="h-[32px] w-[124px]" />
+      </a>
+      <ul className="list-none justify-between items-center sm:flex hidden">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -14,7 +16,7 @@ const Navbar = () => {
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`#${nav.title}`}> {nav.id}</a>
           </li>
         ))}
       </ul>
