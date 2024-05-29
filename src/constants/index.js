@@ -1,20 +1,43 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "Stats",
+    title: "Stats",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "Business",
+    title: "Business",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "Billing",
+    title: "Billing",
   },
   {
-    id: "clients",
+    id: "Deals",
+    title: "CardDeal",
+  },
+  {
+    id: "Testimonials",
+    title: "Testimonials",
+  },
+  {
+    id: "Clients",
     title: "Clients",
   },
 ];
