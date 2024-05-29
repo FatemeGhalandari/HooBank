@@ -1,6 +1,7 @@
-import React from "react";
 import Button from "./Button";
 import { features } from "../constants";
+
+// eslint-disable-next-line react/prop-types
 const FeatureCard = ({ index, icon, title, content }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
@@ -20,6 +21,7 @@ const FeatureCard = ({ index, icon, title, content }) => (
     </div>
   </div>
 );
+
 const Business = () => {
   return (
     <section className="flex flex-col md:flex-row sm:py-16 py-6">
