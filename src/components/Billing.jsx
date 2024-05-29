@@ -1,4 +1,3 @@
-import React from "react";
 import { apple, bill, google } from "../assets";
 const Billing = () => (
   <section
